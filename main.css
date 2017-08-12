@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  color: white;
+  padding: 20px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-shadow: 0 1px 0 black;
+  background: url("https://www.usnews.com/dims4/USNEWS/1e0a24b/2147483647/resize/1200x%3E/quality/85/?url=http%3A%2F%2Fmedia.beam.usnews.com%2F4b%2Fc1%2F589cdba74cacb7ad785183009cd9%2F170515-madisonindiana-stock.jpg")no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.75rem;
+	
+}
+
+input[type="submit"] {
+	  -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.75);
+    border: 5px solid white; 
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+	margin-right: 0.5rem;
+}
+section {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 80%;
+    min-width: 22rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+ #quiz-start-button {
+  margin-bottom: 20px;
+}
+#quiz-start-button, #quiz-final-button, #next-question, #previous-question, #show-results, #play-again {
+    margin: auto 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+#show-results{
+  margin: 10px;
+}
+#quiz-start-button:hover, #next-question:hover, #previous-question:hover, #quiz-final-button:hover, #show-results:hover,#play-again:hover {
+  background-color: #fff;
+  color:#429000;
+  font-weight: bold;
+}
+
+#quiz-start p {
+	text-align: center;
+}
+
+
+#quiz-page ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 20rem;
+	max-width: 24rem;
+}
+
+fieldset:first-child ~ fieldset{
+	border: none;
+	font-size: 30px;
+}
+fieldset{
+  border: none;
+}
+
+#quiz-end {
+	text-align: center;
+	position: relative;
+}
+
+#results {
+	font-size: 14px;
+	text-align: center;
+}
+
+#quiz-end-image {
+  border: 15px solid #3e2b14;
+  margin-top: 20px;
+  top: 20px;
+  left: 20px;
+  
+}
+ 

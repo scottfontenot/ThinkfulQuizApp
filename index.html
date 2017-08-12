@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>jQuery Quiz app </title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role='banner'>
+      <h1>Parks and Recreation Quiz: Citizen of Pawnee Edition</h1>
+    </header>
+    
+    <section id='quiz-start'>
+      <p>How local are you?</p>
+      <input id='quiz-start-button' type='submit' value="Begin">
+    </section>
+    
+    <section id='quiz-page'>
+      <form>
+        <fieldset>
+          <p id='results'></p>
+          <p class= 'quiz-question-number'></p>
+          <p class='quiz-question'></p>
+          <div class='container'>
+            <ul class='quiz-question-choices'></ul>
+          </div>
+          <input type='submit' id='quiz-final-button' value="Submit">
+        </fieldset>
+        <input id='previous-question' type='submit' value='Previous Question'>
+        <input id='next-question' type='submit' value='Next Question'>
+        <input id='show-results' type='submit' value='You are done, click to view your score'>
+        <p id='answer-feedback'></p>
+        
+      </form>
+    </section>
+    
+    <section id='quiz-end'>
+      <h2>Pawnee, first in friendship, fourth in obesity!</h2>
+      <p id='quiz-end-final-score'></p>
+      <p>Want to try again?</p>
+      <input id='play-again' type='submit' value='Replay'>
+      <section id="quiz-end-image"></section>
+    </section>
+    
+   <script src="//code.jquery.com/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
